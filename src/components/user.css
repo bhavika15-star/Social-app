@@ -1,0 +1,160 @@
+.card {
+  /* background-color: white; */
+  /* width: fit-content; */
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  /* width: 60rem; */
+}
+.mid{
+    overflow: scroll;
+    height: 40rem;
+    width: 70%;
+}
+.newpost{
+  margin: 1rem 5.5rem;
+  display: flex;
+  justify-content: center;
+}
+.postbtn{
+  text-decoration: none;
+  color: white;
+  background-color: blue;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.innercard {
+  background-color: white;
+  padding: 1rem;
+  /* width: 48%; */
+  border-radius: 0.5rem;
+  box-shadow: 1px 5px 11px 4px rgba(0,0,0,0.65);
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+}
+.user_image {
+  border-radius: 50%;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+.username{
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.createdatetime{
+    font-size: 0.9rem;
+    color: #797878;
+}
+.card_top {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.margin-left {
+  margin-left: 1rem;
+}
+.desc {
+  margin-top: 1.5rem;
+}
+.image {
+  width: 100%;
+  margin-top: 0.5rem;
+  height: 22rem;
+}
+.likedislike {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.likecmnttext{
+    font-size: 1rem;
+    color: #000;
+    cursor: pointer;
+}
+
+.like {
+  margin-right: 0.6rem;
+  font-size: 1rem;
+  color: white;
+  background-color: blue;
+  padding: 0.2rem 0.4rem;
+  border-radius: 50%;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.cmnt {
+  /* display: none; */
+}
+
+.cmnt_section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.cmntinput {
+  border-radius: 1rem;
+  box-shadow: 5px black;
+  background-color: whitesmoke;
+  color: black;
+  border: 1px solid black;
+  width: 85%;
+  font-size: 1rem;
+  padding: 0.5rem;
+  padding-left: 0.6rem;
+  margin-right: 0.5rem;
+}
+
+.cmntbtn {
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.5rem;
+  background-color: blue;
+  color: white;
+  border: 1px solid whitesmoke;
+  font-size: 1rem;
+}
+.commentsection{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  margin-bottom: 0.4rem;
+}
+.cmntshow {
+  font-size: 0.8rem;
+  margin-left: 2rem;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+.commentimage{
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.4rem;
+}
+.cmntname{
+  font-weight: 550;
+}
+.comment{
+  font-weight: 400;
+}

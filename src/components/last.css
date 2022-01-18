@@ -1,0 +1,34 @@
+.last{
+    margin: 1rem;
+    width: 35%;
+}
+.lastheader{
+    display: flex;
+    margin: 1.5rem;
+    align-items: center;
+}
+.giftboximg{
+    font-size: 2.5rem;
+    margin-right: 0.7rem;
+    color: red;
+}
+.headertext{
+    font-size: 1rem;
+    color: #a5a4a4;
+}
+.lastimage{
+    width: 100%;
+    border-radius: 0.6rem;
+}
+.onlinefriendsheading{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: black;
+}
+.dot{
+    color: green;
+    margin-right: 0.6rem;
+}
+.onlinenames{
+    margin: 0.4rem;
+}
